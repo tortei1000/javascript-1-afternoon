@@ -54,7 +54,9 @@ var newGreeting = function(name){
 //Rewrite the function greeting as an arrow function.
 //Name it finalGreeting.
 
-let finalGreeting = (name) => {greeting}
+let finalGreeting = (name) => {
+  return 'Hello, ' + name
+}
 
 //////////////////PROBLEM 9////////////////////
 
