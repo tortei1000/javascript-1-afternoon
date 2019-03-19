@@ -45,21 +45,23 @@ function greeting(name){
 //Rewrite the function greeting as a function expression.
 //Name it newGreeting.
 
-
+var newGreeting = function(name){
+  return 'Hello, ' + name
+}
 
 //////////////////PROBLEM 8////////////////////
 
 //Rewrite the function greeting as an arrow function.
 //Name it finalGreeting.
 
-//Code Here
+let finalGreeting = (name) => {greeting}
 
 //////////////////PROBLEM 9////////////////////
 
 //Create an array called groceries with the values
 //"apples", "milk", "eggs", "bread"
 
-//Code Here
+let groceries['apples', 'milk', 'eggs', 'bread'] 
 
 //////////////////PROBLEM 10////////////////////
 
