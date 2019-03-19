@@ -2,31 +2,31 @@
 
 //Create a variable called myName that is a string data type
 
-//Code here
+let myName = 'Tiago'
 
 //////////////////PROBLEM 2////////////////////
 
 //Create a variable called myAge that is a number data type
 
-//Code here
+let myAge = 38
 
 //////////////////PROBLEM 3////////////////////
 
 //Create a variable called lovesCode that is a boolean data type
 
-//Code here
+let lovesCode = true
 
 //////////////////PROBLEM 4////////////////////
 
 //Create a variable called greatestFear that is undefined because we fear nothing
 
-//Code here
+let greatestFear
 
 //////////////////PROBLEM 5////////////////////
 
 //Create a variable called devMountainGoal that is null because we are just starting out
 
-//Code here
+let devMountainGoal = null
 
 //////////////////PROBLEM 6////////////////////
 
@@ -35,7 +35,9 @@
 //greeting should return the string "Hello, "
 //plus the value of the name parameter.
 
-//Code here
+function greeting(name){
+  return 'Hello, ' + name
+}
 
 
 //////////////////PROBLEM 7////////////////////
@@ -43,7 +45,7 @@
 //Rewrite the function greeting as a function expression.
 //Name it newGreeting.
 
-//Code Here
+
 
 //////////////////PROBLEM 8////////////////////
 
