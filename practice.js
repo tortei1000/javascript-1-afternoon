@@ -184,8 +184,8 @@ let age = 38
 // FLASH FORWARD TO NEXT YEAR
 // reassign the value of age to be one greater than it was, because, we all get older
 
-age =+
+age +=
 
 // Good news! We can live forever. Set your age to 999
 
-//age = 999
+age = 999
